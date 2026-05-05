@@ -190,3 +190,35 @@
 # print(phone_num.replace('+7'), '8'))  # replace - Заменяет старый на новый.
 
 # print(phone_num.count('7')) # count - Считает сколько символов в строке.
+
+# print('hi')
+
+# # Списки:
+# l = ['stroka1', 15, 5.2, 'stroka2']
+# print(l)
+# # print(type(l[0]))  # Строки имеют класс list
+# print(len(l))
+# print(15 in l)
+
+# new_list = []
+# print(new_list)
+
+# print(list(range(5)))
+
+# my_list = [9, 100, 0.6, 1, 3,5]
+
+# print(sum(my_list))  # sum - складывает все числа в одно.
+# print(min(my_list))  # min - выводит минимальное число.
+# print(max(my_list))  # max - Выводит максимальное число.
+my_list = [2, 5, 99]
+my_list.append('PYTHON')  # append - добавляет в список что есть в строке.
+
+print(my_list)
+
+my_list.insert(0, 1)
+print(my_list)
+
+#Удаление:
+delete = my_list.pop(0) # pop - Удаляет определенную строку под  индексом.
+
+print(f"my_list: {my_list} | Deleted: {delete}")
