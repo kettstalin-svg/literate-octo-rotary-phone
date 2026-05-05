@@ -210,15 +210,37 @@
 # print(sum(my_list))  # sum - складывает все числа в одно.
 # print(min(my_list))  # min - выводит минимальное число.
 # print(max(my_list))  # max - Выводит максимальное число.
-my_list = [2, 5, 99]
-my_list.append('PYTHON')  # append - добавляет в список что есть в строке.
+# my_list = [2, 5, 99]
+# my_list.append('PYTHON')  # append - добавляет в список что есть в строке.
 
+# print(my_list)
+
+# my_list.insert(0, 1)
+# print(my_list)
+
+# #Удаление:
+# delete = my_list.pop(0) # pop - Удаляет определенную строку под  индексом.
+
+# print(f"my_list: {my_list} | Deleted: {delete}")
+
+# my_list.remove(99)
+# print(my_list)
+
+# print(my_list.sort(reverse=True))
+
+
+# numbers = [0, 1, 2, 3, 4, 5 ,6]
+# for i in numbers:
+#     print(i)
+
+# lange = ['Py', 'JS', 'C++']
+
+# for index, element in enumerate(lange): # enumerate -  Также возращает индекс.
+#     print(index, el)
+
+string = 'Я будущий Python разработчик' # split - разделяет слова на список.
+my_list = print(string.split())
 print(my_list)
 
-my_list.insert(0, 1)
-print(my_list)
-
-#Удаление:
-delete = my_list.pop(0) # pop - Удаляет определенную строку под  индексом.
-
-print(f"my_list: {my_list} | Deleted: {delete}")
+ip = '127.0.01'
+print(ip.split())
