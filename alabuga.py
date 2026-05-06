@@ -16,7 +16,24 @@
 # print(Grok)
 
 
-year = 2026
-age = 16
-ptover =  year - age
-print(ptover)
+# year = 2026
+# age = 16
+# ptover =  year - age
+# print(ptover)
+
+# x = 10 
+# y = 5
+
+# temp = x
+# x = y
+# y = temp
+# print(x, y)
+
+# temperature_c = 25
+# temperature_f =(temperature_c*9/5) + 32
+# print(temperature_f)
+
+dlina = 15
+hirina = 10
+P = dlina +  hirina * 2
+print(P)
