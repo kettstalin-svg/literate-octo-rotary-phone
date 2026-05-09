@@ -286,8 +286,93 @@
 
 # for  key, value in avtor.items():  # ITEMS - ДЕЛАЕТ КЛЮЧЗНАЧЕНИЕ
 #     print(f'Ключ: {key}, Значение: {value}')
-info = {'name': 'Ale', 'surname': 'mak'}
+# info = {'name': 'Ale', 'surname': 'mak'}
 
-info['name']= 'Kirill'
+# info['name']= 'Kirill'
 
-print('info')
+# print('info')
+
+# my_list = ['Jun', 'mid', 'den']
+
+# my_tuple = ('Jun', 'mid', 'den', [1,2,3])
+
+# my_tuple[-1].append(4)
+
+# print(my_tuple)
+# my_list[0] = 'Junior 123'
+# print(my_list)
+
+# ALLOWED_TGAME_EXENSTINOS = (
+#     '.jpg'
+#     '.jpeg'
+#     '.png'
+#     '.webp'
+# )
+
+
+# my_tuple = ('Junior', 'middle', 'senior')
+# # [('name', 'pidor', ('age', 18), ('is menter', True))]
+
+# Junior, middle, senior = my_tuple
+# print(Junior)
+# print(middle)
+# print(senior)
+
+
+# numbers = {101, 102, 103}
+
+# lange = {'python', 'javascript', 'c++', 'c#'}
+
+# lange.remove('javascript')
+# lange.add('java')
+
+# unoque_lange = set(lange)
+# print(unoque_lange)
+
+# Примеры создания кортежей
+# empty_tuple = ()
+# tuple1 = (1, 2, 3, 4)
+# tuple2 = ("apple", "banana", "cherry")
+# tuple3 = (1, "hello", 3.14, True)
+# print(tuple2[2])
+
+
+# worlds = ['python', 'code', 'list', 'python', 'set', 'code','tuple']
+
+# def draw_symbol(symbol, count):
+#     text = '$'
+#     print(text * count)
+    
+    
+# sumbol = "*"
+# count = 5
+# draw_symbol(sumbol, count)
+# print(sumbol)
+# # draw_symbol('*',   5)
+# # # draw_symbol('!',  5)
+# # draw_symbol('$',  5)
+
+# def horror_ticket(name, film):
+#      input('Как тебя зовут?: ', name)
+#      film = input()
+#      print(name, film)
+
+# def double(numbers):
+#     result = numbers * 2
+#     return result
+
+# num = 5
+# result = double(num)
+
+# print(f"Результат умножения на 5: {result}")
+
+def check_number(num):
+    if num > 0:
+        return 'Положительное'
+    elif num < 0:
+        return 'Отрицательное'
+    
+    print('asdf')
+    return 'Ноль'
+
+print(check_number(0))

@@ -1,2 +1,2 @@
-pidor = 'a'+ 'b'
-print(pidor)
+# pidor = 'a'+ 'b'
+# print(pidor)

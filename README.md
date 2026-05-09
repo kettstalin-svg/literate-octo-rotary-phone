@@ -8,7 +8,7 @@
 - Работа в терминале Ubuntu.
 - Основы Git (init, add, commit, push).
 
-## Мой стек сейчас:
+## Мой стек сейчтас:fff
 - ОС: Ubuntu Linux
 - IDE: VS Code
 - Language: Python 3.12+

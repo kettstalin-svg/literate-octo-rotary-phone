@@ -14,4 +14,13 @@
 # simple_string[1]
 # # 'p'
 
-# print(simple_string)
+
+def user_numbers(num):
+    if num < 0:
+        return 'Положительное число'
+    elif num > 0:
+        return 'Отрицательное число'
+    else:
+        return 'Ноль'
+
+user_numbers(1)

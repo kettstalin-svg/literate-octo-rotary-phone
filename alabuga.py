@@ -33,7 +33,7 @@
 # temperature_f =(temperature_c*9/5) + 32
 # print(temperature_f)
 
-dlina = 15
-hirina = 10
-P = dlina +  hirina * 2
-print(P)
+# dlina = 15
+# hirina = 10
+# P = dlina +  hirina * 2
+# print(P)
