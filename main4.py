@@ -364,15 +364,100 @@
 # num = 5
 # result = double(num)
 
-# print(f"Результат умножения на 5: {result}")
+# # print(f"Результат умножения на 5: {result}")
 
-def check_number(num):
-    if num > 0:
-        return 'Положительное'
-    elif num < 0:
-        return 'Отрицательное'
+# def check_number(num):
+#     if num > 0:
+#         return 'Положительное'
+#     elif num < 0:
+#         return 'Отрицательное'
     
-    print('asdf')
-    return 'Ноль'
+#     print('asdf')
+#     return 'Ноль'
 
-print(check_number(0))
+# print(check_number(0))
+
+# def show_double(x):
+#     print(x * 2)
+#     return None
+
+# def get_double(x):
+#     return x * 2
+
+
+# result = get_double(5)
+# print(result + 1)
+
+
+# show_result = show_double(5)
+# print(show_result)
+# birth_year = 123
+
+
+# def print_alexander():
+#     birth_year = 356
+#     name = 'Alexander'
+#     print('Alexander the Great was born in', birth_year, 'BC')
+    
+#     print(f'Локльная область видемости print_alexandr: {locals()}')
+
+# print_alexander()
+
+# print(globals())
+
+# print(birth_year)
+
+# city = 'Moskow'
+
+# def show_city():
+#     city = 'London'
+#     print(city)
+
+# show_city()
+# print(city)
+
+# def draw_line(symbol, count):
+#     print(symbol, count=10)
+    
+    
+    
+# draw_line('*')
+# draw_line('!')
+# draw_line('$')
+    
+# draw_line('&', 8)
+
+# def make_circle(x, y, radius, line_with, fill):
+#     pass
+
+# make_circle(x=200, y=100, radius=15, line_with=3.5, fill=True)
+# def get_sum(*args):
+#     print(f"Передали аргументы: {args}")
+#     total_sum = 0
+    
+#     for num in args:
+#         total_sum += num
+    
+#     return total_sum
+
+# print(get_sum(1, 3))
+# print(get_sum(1,2,3))
+# print(get_sum(5,10,15,20))
+
+# def print_info(name, *args, **kwargs):
+#     print(name)
+#     print(args)
+#     print(kwargs)
+
+
+# print_info('ILPERSONA', 1,2,3,4,country='Grece', city='Pella', king='Alex', info=123)
+
+
+def calculate_total(price, quantity, has_discount):
+    total = price * quantity
+    
+    
+    if has_discount:
+        total -= 10
+        
+    return
