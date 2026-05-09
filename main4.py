@@ -453,11 +453,42 @@
 # print_info('ILPERSONA', 1,2,3,4,country='Grece', city='Pella', king='Alex', info=123)
 
 
-def calculate_total(price, quantity, has_discount):
-    total = price * quantity
+# def calculate_total(price: int, quantity: int, has_discount: bool) -> int:
+#     total = price * quantity
     
     
-    if has_discount:
-        total -= 10
+#     if has_discount == True:
+#         total -= 10
         
-    return
+#     return total
+
+
+# # calculate_total(price=15, quantity=2, has_discount="da")
+# try:
+#     number = int(input('Введи число: '))
+#     print(10 / number)
+# except ZeroDivisionError:
+#     print('Произошла ошибка ZeroDivisionError')
+#     print('Бро не надо вводить ноль')
+# except ValueError:
+#     print('Произошла ошибка ValueError')
+#     print('Бро введи число')
+
+
+# Обработать эти ошибки:
+# ZeroDivision
+# ValueError
+
+
+
+# try:
+#     number = int(input('Введи число: '))
+#     print(10 / number)
+# except Exception as error:
+#     print(f'Произошла ошибка: {error}')
+# else:
+#     print('Ошибки не было!')
+# finally:
+#     ('Ты всегда меня увидишь!')
+age = int(input())
+if age < 0:raise ValueError('Рандомная ошибка')
